@@ -1,0 +1,55 @@
+@font-face {
+    font-family: CodaCaption-ExtraBold;
+    src: url(../fonts/CodaCaption-ExtraBold.ttf);
+}
+*{
+    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: CodaCaption-ExtraBold;
+}
+body{
+    margin: 0;
+}
+.uni-padding{
+    padding: 0 7%;
+}
+#tollfree{
+    float: left;
+    color: white;
+}
+#topbar{
+    background-color: #576574;
+    overflow: auto;
+}
+#social-icons{
+    float: right;
+    padding: 15px 10px;
+}
+.fa-brands{
+    padding: 5px 6px;
+    color:  #576574;
+    background-color: #fdfdfd;
+    border-radius: 50%;
+}
+#logobar img{
+    width: 120px;
+    margin: 25px 0px;
+}
+#navbar{
+    background-color:blue ;
+}
+#navbar ul li{
+    display: inline-block;
+    padding: 18px 0px;
+    padding-right: 35px;
+}
+#navbar ul{
+    margin: 0;
+}
+#navbar ul li a{
+    color: #fdfdfd;
+    text-decoration: none;
+    font-size: 18px;
+}
