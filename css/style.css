@@ -101,18 +101,86 @@ body{
     color:#333333;
     text-align:center;
 }
+#contact-container{
+    background-color: blue;
+    color: #fdfdfd;
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.sec70{
+    width: 70%;
+    float: left;
+}
+.sec70 h2{
+    font-size: 30px;
+}
+.sec30{
+    width: 25%;
+    float: right;
+    padding-top: 70px;
+}
+#contact-btn{
+    background-color: #fdfdfd;
+    color: blue;
+    text-decoration: none;
+    padding: 15px 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8%;
+}
+.sec-33 a{
+    color: blue;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#sub-sec{
+    background-color: blue;
+    color: #fdfdfd;
+    /* display: flex; */
+    padding-top:  40px;
+    padding-bottom: 40px;
+    overflow: auto;
+
+}
+#sec50{
+    width: 50%;
+    float: left;
+}
+#sec50 h2{
+    font-size: 27px;
+    padding-right: 50px;
+}
+#sec50 form{
+    padding-top: 25px;
+}
+#sec50 input[type="email"]{
+    padding: 10px 15px;
+    color: blue;
+    font-size: 15px;
+    margin-right: 20px;
+    border: 0px;
+    width: 45%;
+}
+#sec50 input[type="submit"]{
+    padding: 10px 35px;
+    font-size: 15px;
+    color: blue;
+    border: 0px;
+    background-color: #fdfdfd;
+    width: 30%;
+}
 #imp-links{
     background-color: #333333;
     color:#fdfdfd;
     overflow: auto;
-    /* border: 2px solid green; */
 }
 .div33{
     width: 33%;
     float: left;
     padding: 25px;
     box-sizing: border-box;
-    /* text-align: justify; */
 }
 .div33 h3{
     text-decoration: underline;
