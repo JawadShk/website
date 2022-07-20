@@ -54,6 +54,53 @@ body{
     text-decoration: none;
     font-size: 18px;
 }
+#poster{
+    background-image: url(../images/poster.png);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fdfdfd;
+    flex-direction: column;
+}
+#poster h1{
+    font-size: 50px;
+}
+#poster p{
+    font-size: 18px;
+    text-align: center;
+}
+#why-sec{
+    overflow: auto;
+    margin-bottom: 50px;
+}
+.red-h{
+    color: blue;
+    text-align:center;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.sec-33{
+    width: 33%;
+    float: left;
+    text-align: center;
+    padding: 0px 50px;
+    box-sizing: border-box;
+}
+.sec-33 img{
+    width: 300px;
+    height: 200px;
+}
+.sec-33 h2{
+    color: blue;
+}
+.sec-33 p{
+    color:#333333;
+    text-align:center;
+}
 #imp-links{
     background-color: #333333;
     color:#fdfdfd;
@@ -91,5 +138,5 @@ body{
     background-color: #222f3e ;
     color: #cbcbcb;
     text-align: center;
-    border: 2px solid #222f3e;
+    padding: 10px;
 }
