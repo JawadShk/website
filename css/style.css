@@ -47,9 +47,49 @@ body{
 }
 #navbar ul{
     margin: 0;
+    padding: 0;
 }
 #navbar ul li a{
     color: #fdfdfd;
     text-decoration: none;
     font-size: 18px;
+}
+#imp-links{
+    background-color: #333333;
+    color:#fdfdfd;
+    overflow: auto;
+    /* border: 2px solid green; */
+}
+.div33{
+    width: 33%;
+    float: left;
+    padding: 25px;
+    box-sizing: border-box;
+    /* text-align: justify; */
+}
+.div33 h3{
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 2px;
+    margin-bottom: 25px;
+}
+#footer-menu{
+    padding: 0px;
+    list-style-type: none;
+}
+#footer-menu li{
+    padding-bottom: 10px;
+}
+#footer-menu li a{
+    color: #fdfdfd;
+    text-decoration: none;
+}
+#footer-menu-container{
+    padding-left: 100px;
+}
+#copy-right{
+    background-color: #222f3e ;
+    color: #cbcbcb;
+    text-align: center;
+    border: 2px solid #222f3e;
 }
