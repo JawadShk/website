@@ -144,18 +144,18 @@ body{
     overflow: auto;
 
 }
-#sec50{
+.sec50{
     width: 50%;
     float: left;
 }
-#sec50 h2{
+.sec50 h2{
     font-size: 27px;
     padding-right: 50px;
 }
-#sec50 form{
+.sec50 form{
     padding-top: 25px;
 }
-#sec50 input[type="email"]{
+.sec50 input[type="email"]{
     padding: 10px 15px;
     color: blue;
     font-size: 15px;
@@ -163,7 +163,7 @@ body{
     border: 0px;
     width: 45%;
 }
-#sec50 input[type="submit"]{
+.sec50 input[type="submit"]{
     padding: 10px 35px;
     font-size: 15px;
     color: blue;
@@ -207,4 +207,96 @@ body{
     color: #cbcbcb;
     text-align: center;
     padding: 10px;
+}
+
+@media only screen and (max-width: 768px){
+    #navbar ul li {
+        padding-right: 20px;
+        
+    }
+    .sec-33 {
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    .sec30 {
+        width: 29%;
+        padding-top: 80px;
+        padding-left: 6px;
+    }
+    .sec70 {
+        padding-right: 0px;
+        box-sizing: border-box;
+    }
+    #sec50 h2 {
+        font-size: 19px;
+        padding-right: 13px;
+        padding-top: 15px;
+    }
+    #footer-menu {
+        line-height: 2;
+    }
+    #footer-menu-container {
+        padding-left: 25px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    #logobar{
+        text-align: center;
+    }
+    #poster h1 {
+        font-size: 28px;
+    }
+    .sec-33 img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .sec30, .sec-33, .sec70, .sec30, .div33, .sec50 {
+        width: 100%;
+    }
+    .sec30, .sec70{
+        text-align: center;
+    }
+    .sec50 h2 {
+        text-align: center;
+        padding-right: 0;
+    }
+}
+#navbar ul #mobile-cross, #mob-bar{
+    display: none;
+}
+@media only screen and (max-width: 500px) {
+    #navbar {
+        background-color: blue;
+        position: absolute;
+        top: 0px;
+        height: 100vh;
+        width: 280px;
+        padding: 0px;
+    }
+    #navbar ul li {
+        display: block;
+        padding: 18px 0px;
+        padding-right: 35px;
+        padding-right: 35px;
+        border-bottom: 1px solid #fdfdfd;
+        padding-left: 20px;
+    }
+    #mobile-cross{
+        text-align: right;
+    }
+    #navbar{
+            left: -280px;
+            transition: all 0.5s ease;
+    }
+    #mob-bar{
+        background-color: blue;
+        color: #fdfdfd;
+        padding: 15px;
+        font-size: 28px;
+    }
+    #navbar ul #mobile-cross, #mob-bar{
+        display: block;
+    }
 }
